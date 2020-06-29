@@ -1,0 +1,29 @@
+/* 导航 */
+
+.nav div a {
+    color: #fff;
+    /* 设为块级元素，设置宽度，宽度为页面的25%，实现百分比布局 */
+    display: block;
+    text-align: center;
+    width: 33.33%;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    float: left;
+}
+
+
+/* 导航在鼠标移上去时，字体颜色和背景颜色发生改变 */
+
+.nav div a:hover {
+    color: rgb(73, 69, 69);
+    background-color: aliceblue;
+}
+
+
+/*  导航格式*/
+
+#nav {
+    height: 35px;
+    line-height: 35px;
+    background-color: rgb(95, 174, 219);
+}

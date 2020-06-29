@@ -1,0 +1,157 @@
+/* reset操作，将页面中所有元素的内外边距置0 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 去掉list的装饰，比如前面的小圆点*/
+
+ul {
+    list-style: none;
+}
+
+
+/* 将页面中所有的超链接去掉下划线，颜色设为统一的值 */
+
+a {
+    color: #3b3b3b;
+    text-decoration: none;
+}
+
+
+/* 清除浮动 */
+
+.clear {
+    clear: both;
+}
+
+.logo {
+    /* 让logo中的图片占满屏幕的宽度，高度为自适应 */
+    width: 100%;
+}
+
+
+/* 我的相册 */
+
+.cases-list {
+    display: block;
+    /* 将li转换成块级元素 */
+}
+
+.cases-list li {
+    float: left;
+    /* 浮动，使照片排成一排而不是排成一列 */
+    width: 15%;
+    /* 百分比布局，每个块级元素占15% */
+}
+
+.cases-list li p {
+    width: 120px;
+    height: 90px;
+    padding: 3px;
+    /* 内边距是3px，也就是距离照片3px */
+    border: 1px solid #CCC;
+    /* 给照片加个边框 */
+    margin: 0 auto;
+}
+
+.cases-list li p img {
+    width: 320px;
+    /* 照片的宽高是固定的尺寸 */
+    height: 240px;
+    margin: 0 auto;
+}
+
+
+/* 照片“上传时间”的格式 */
+
+.cases-list li h3 {
+    line-height: 20px;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 6px;
+    /* 距照片6px */
+}
+
+
+/* 我的文章 */
+
+.news h2 {
+    /* 我的文章 导航部分 */
+    height: 30px;
+    background-color: rgb(95, 174, 219);
+}
+
+.news h2 p {
+    /* "我的文章"四个字的格式 */
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFF;
+    padding-left: 10px;
+}
+
+.news-list li {
+    /* 文章间距 */
+    padding: 10px;
+}
+
+
+/* 页脚 */
+
+.footer {
+    background-color: rgb(95, 174, 219);
+}
+
+.copyright {
+    width: 320px;
+    margin: 0 auto;
+    line-height: 18px;
+    text-align: center;
+    color: #FFF;
+}
+
+.copyright a {
+    color: #FFF;
+}
+
+
+/* 友情链接 */
+
+.footer_links ul {
+    padding: 0 0 0 16px;
+}
+
+.footer_title {
+    /* "友情链接"四字 */
+    font-family: "微软雅黑";
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.footer_link_item {
+    /* 友情链接元素格式 */
+    float: left;
+    line-height: 24px;
+    width: 80px;
+    font-family: "微软雅黑";
+    color: #CCC;
+}
+
+
+/* 中间部分距离底部的间距——相册 */
+
+.blo {
+    height: 400px;
+}
+
+
+/* 中间部分距离底部的间距——联系我 */
+
+.blo2 {
+    height: 100px;
+}
